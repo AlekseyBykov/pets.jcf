@@ -1,7 +1,7 @@
 //
 // Feel free to use these solutions in your work.
 //
-package alekseybykov.portfolio.jcf.collection;
+package alekseybykov.portfolio.jcf;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -43,7 +43,7 @@ class CoreCollectionTest {
         assertEquals(secondList.size(), 0);
         assertTrue(secondList.isEmpty());
 
-        Object[] array = secondList.toArray();
+        Object[] array = firstList.toArray();
         assertEquals(array.length, 2);
     }
 }

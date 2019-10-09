@@ -15,7 +15,18 @@ import lombok.Data;
 @Data
 @Builder
 @AllArgsConstructor
-public class User {
-    long id;
-    String name;
+public class User implements Comparable<User> {
+    private int id;
+    private int regNumber;
+    private String name;
+
+    @Override
+    public int compareTo(User o) {
+        if (this.id > o.id) {
+            return 1;
+        } else if (this.id < o.id) {
+            return -1;
+        }
+        return 0;
+    }
 }

@@ -1,10 +1,9 @@
 //
 // Feel free to use these solutions in your work.
 //
-package alekseybykov.portfolio.jcf.collection;
+package alekseybykov.portfolio.jcf.iterator;
 
 import alekseybykov.portfolio.jcf.collection.data.User;
-import org.apache.commons.lang3.math.NumberUtils;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -21,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * @since   2019-10-09
  */
 @DisplayName("Tests for basic iterator methods")
-class CoreIteratorTest {
+class IteratorTest {
 
     @Test
     @DisplayName("Test for cursor position")
@@ -57,8 +56,8 @@ class CoreIteratorTest {
     @Test
     @DisplayName("Test for attempt to change object field")
     void testTryToChangeObjectField() {
-        User zeroUser = User.builder().id(NumberUtils.LONG_ZERO).name("Zero user").build();
-        User firstUser = User.builder().id(NumberUtils.LONG_ONE).name("First user").build();
+        User zeroUser = User.builder().id(0).name("Zero user").build();
+        User firstUser = User.builder().id(1).name("First user").build();
 
         User[] users = {zeroUser, firstUser};
 
