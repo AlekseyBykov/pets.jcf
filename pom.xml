@@ -12,8 +12,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <compiler.plugin.version>3.8.1</compiler.plugin.version>
-        <plugin-maven-compiler.version>3.8.1</plugin-maven-compiler.version>
+        <maven-compiler.version>3.8.1</maven-compiler.version>
         <surefire.version>2.22.1</surefire.version>
         <junit.jupiter.version>5.3.2</junit.jupiter.version>
         <org.projectlombok.version>1.18.0</org.projectlombok.version>
@@ -54,7 +53,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>${plugin-maven-compiler.version}</version>
+                <version>${maven-compiler.version}</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
