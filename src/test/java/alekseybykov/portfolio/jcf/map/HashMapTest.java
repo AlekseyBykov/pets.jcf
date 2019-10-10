@@ -16,10 +16,20 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @version 1.0
  * @since   2019-10-09
  */
-@DisplayName("Tests for basic map methods")
-class MapTest {
+@DisplayName("Tests for basic HashMap methods")
+class HashMapTest {
 
     @Test
+    @DisplayName("Check null as key")
+    void testNullAsKey() {
+        Map<String, Integer> map = new HashMap<>();
+        map.put(null, 10);
+        map.put(null, 11);
+
+        assertEquals(map.get(null), Integer.valueOf(11));
+    }
+
+        @Test
     @DisplayName("Test for duplicates")
     void testForDuplicates() {
         Map<String, Integer> map = new HashMap<>();
