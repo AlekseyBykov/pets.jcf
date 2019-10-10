@@ -1,7 +1,7 @@
 //
 // Feel free to use these solutions in your work.
 //
-package alekseybykov.portfolio.jcf.collection.data;
+package alekseybykov.portfolio.jcf.data;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

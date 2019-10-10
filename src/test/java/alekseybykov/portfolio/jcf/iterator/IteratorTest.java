@@ -3,7 +3,7 @@
 //
 package alekseybykov.portfolio.jcf.iterator;
 
-import alekseybykov.portfolio.jcf.collection.data.User;
+import alekseybykov.portfolio.jcf.data.User;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

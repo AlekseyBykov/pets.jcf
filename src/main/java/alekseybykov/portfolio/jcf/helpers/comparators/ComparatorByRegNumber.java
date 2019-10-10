@@ -1,9 +1,9 @@
 //
 // Feel free to use these solutions in your work.
 //
-package alekseybykov.portfolio.jcf.collection.comparators;
+package alekseybykov.portfolio.jcf.helpers.comparators;
 
-import alekseybykov.portfolio.jcf.collection.data.User;
+import alekseybykov.portfolio.jcf.data.User;
 import lombok.NoArgsConstructor;
 
 import java.util.Comparator;
