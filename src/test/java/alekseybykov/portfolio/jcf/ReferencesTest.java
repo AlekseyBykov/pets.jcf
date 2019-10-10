@@ -3,7 +3,7 @@
 //
 package alekseybykov.portfolio.jcf;
 
-import lombok.SneakyThrows;
+import alekseybykov.portfolio.jcf.data.User;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -24,31 +24,30 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 class ReferencesTest {
 
     @Test
-    @SneakyThrows
     @DisplayName("Attempt to remove empty references")
     void testGCEmptyReferences() {
 
         // Strong reference
-        Long key = 1L;
+        User user = User.builder().id(1).build();
 
-        WeakReference<Long> weakReference = new WeakReference<>(key);
+        WeakReference<User> weakReference = new WeakReference<>(user);
         assertNotNull(weakReference);
 
-        PhantomReference<Long> phantomReference = new PhantomReference<>(key, new ReferenceQueue<>());
+        PhantomReference<User> phantomReference = new PhantomReference<>(user, new ReferenceQueue<>());
         assertNotNull(phantomReference);
 
-        SoftReference<Long> softReference = new SoftReference<>(key);
+        SoftReference<User> softReference = new SoftReference<>(user);
         assertNotNull(softReference);
 
-        key = null;
+        user = null; // user object will be removed in regular cycle of gc
 
         System.gc();
 
-        assertNull(key);
+        assertNull(user);
 
         /* It might not work immediately, see in debug mode */
         assertNull(weakReference);
         assertNull(phantomReference);
-        assertNull(softReference);
+        /*assertNull(softReference);*/ // will be removed if the JVM needs memory
     }
 }
