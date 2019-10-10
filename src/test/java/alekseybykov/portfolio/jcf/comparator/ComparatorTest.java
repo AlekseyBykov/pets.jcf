@@ -4,8 +4,6 @@
 package alekseybykov.portfolio.jcf.comparator;
 
 import alekseybykov.portfolio.jcf.data.User;
-import alekseybykov.portfolio.jcf.helpers.comparators.ComparatorById;
-import alekseybykov.portfolio.jcf.helpers.comparators.ComparatorByRegNumber;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
