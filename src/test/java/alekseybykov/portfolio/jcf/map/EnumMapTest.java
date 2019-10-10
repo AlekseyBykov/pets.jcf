@@ -22,7 +22,7 @@ class EnumMapTest {
 
     @Test
     @DisplayName("Put elements in EnumMap")
-    void test() {
+    void testPutElementsInMap() {
         Map<EnumMapKey, String> map = new EnumMap<>(EnumMapKey.class);
 
         map.put(EnumMapKey.KEY_1, "first");
