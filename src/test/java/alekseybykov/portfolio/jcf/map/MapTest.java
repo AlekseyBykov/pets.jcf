@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @since   2019-10-09
  */
 @DisplayName("Tests for basic map methods")
-class CoreMapTest {
+class MapTest {
 
     @Test
     @DisplayName("Test for duplicates")
