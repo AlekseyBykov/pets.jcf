@@ -1,17 +1,9 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.jcf.data;
 
 import lombok.*;
 
 import java.util.Objects;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 1.0
- * @since   2019-10-09
- */
 @Builder
 @Getter
 @Setter

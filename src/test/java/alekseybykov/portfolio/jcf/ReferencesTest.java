@@ -1,6 +1,3 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.jcf;
 
 import alekseybykov.portfolio.jcf.data.User;
@@ -15,11 +12,6 @@ import java.lang.ref.WeakReference;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 1.0
- * @since   2019-10-10
- */
 @DisplayName("Tests for some manipulations with all the types of references")
 class ReferencesTest {
 

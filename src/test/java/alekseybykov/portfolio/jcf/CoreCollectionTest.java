@@ -1,6 +1,3 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.jcf;
 
 import org.junit.jupiter.api.DisplayName;
@@ -12,11 +9,6 @@ import java.util.Collection;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 1.0
- * @since   2019-10-09
- */
 @DisplayName("Tests for basic collection methods")
 class CoreCollectionTest {
 

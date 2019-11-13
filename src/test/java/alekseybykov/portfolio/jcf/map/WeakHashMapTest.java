@@ -1,6 +1,3 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.jcf.map;
 
 import alekseybykov.portfolio.jcf.data.User;
@@ -12,11 +9,6 @@ import java.util.WeakHashMap;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 1.0
- * @since   2019-10-10
- */
 @DisplayName("Tests for some concepts of WeakHashMap")
 class WeakHashMapTest {
 

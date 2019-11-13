@@ -1,6 +1,3 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.jcf.collection.list;
 
 import org.junit.jupiter.api.DisplayName;
@@ -13,11 +10,6 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 1.0
- * @since   2019-10-10
- */
 @DisplayName("Tests for some concepts of Lists")
 class PerformanceTest {
 

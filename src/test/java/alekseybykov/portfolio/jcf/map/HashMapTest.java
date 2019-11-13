@@ -1,6 +1,3 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.jcf.map;
 
 import org.junit.jupiter.api.DisplayName;
@@ -11,11 +8,6 @@ import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 1.0
- * @since   2019-10-09
- */
 @DisplayName("Tests for basic HashMap methods")
 class HashMapTest {
 
