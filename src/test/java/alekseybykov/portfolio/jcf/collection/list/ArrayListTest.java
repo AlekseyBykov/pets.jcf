@@ -10,6 +10,10 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
+/**
+ * @author Aleksey Bykov
+ * @since 10.10.2019
+ */
 @DisplayName("Tests for some concepts of ArrayList")
 class ArrayListTest {
 

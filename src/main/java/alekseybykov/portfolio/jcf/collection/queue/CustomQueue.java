@@ -1,5 +1,9 @@
 package alekseybykov.portfolio.jcf.collection.queue;
 
+/**
+ * @author Aleksey Bykov
+ * @since 10.10.2019
+ */
 public class CustomQueue {
 
     private int initialCapacity;

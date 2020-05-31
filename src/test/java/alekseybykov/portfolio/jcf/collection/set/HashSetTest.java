@@ -9,6 +9,10 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * @author Aleksey Bykov
+ * @since 10.10.2019
+ */
 @DisplayName("Tests for some concepts of HashSet")
 class HashSetTest {
 

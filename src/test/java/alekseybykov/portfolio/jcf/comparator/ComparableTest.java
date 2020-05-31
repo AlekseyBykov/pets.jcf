@@ -8,6 +8,10 @@ import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * @author Aleksey Bykov
+ * @since 09.10.2019
+ */
 @DisplayName("Tests for implementation of comparable")
 class ComparableTest {
 

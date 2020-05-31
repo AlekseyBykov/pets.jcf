@@ -5,6 +5,10 @@ import lombok.NoArgsConstructor;
 
 import java.util.Comparator;
 
+/**
+ * @author Aleksey Bykov
+ * @since 09.10.2019
+ */
 @NoArgsConstructor
 public class ComparatorById implements Comparator<User> {
     @Override

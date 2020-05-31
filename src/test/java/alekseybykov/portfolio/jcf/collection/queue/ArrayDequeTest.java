@@ -8,6 +8,10 @@ import java.util.Deque;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * @author Aleksey Bykov
+ * @since 10.10.2019
+ */
 @DisplayName("Tests for some methods of ArrayDeque")
 class ArrayDequeTest {
 

@@ -9,6 +9,10 @@ import java.util.WeakHashMap;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+/**
+ * @author Aleksey Bykov
+ * @since 10.10.2019
+ */
 @DisplayName("Tests for some concepts of WeakHashMap")
 class WeakHashMapTest {
 

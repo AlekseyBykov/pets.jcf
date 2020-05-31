@@ -9,6 +9,10 @@ import java.util.Collection;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * @author Aleksey Bykov
+ * @since 09.10.2019
+ */
 @DisplayName("Tests for basic collection methods")
 class CoreCollectionTest {
 

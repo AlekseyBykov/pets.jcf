@@ -9,6 +9,10 @@ import java.util.Queue;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * @author Aleksey Bykov
+ * @since 10.10.2019
+ */
 @DisplayName("Tests for some methods of Queue")
 class PriorityQueueTest {
 

@@ -12,6 +12,10 @@ import java.lang.ref.WeakReference;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
+/**
+ * @author Aleksey Bykov
+ * @since 10.10.2019
+ */
 @DisplayName("Tests for some manipulations with all the types of references")
 class ReferencesTest {
 

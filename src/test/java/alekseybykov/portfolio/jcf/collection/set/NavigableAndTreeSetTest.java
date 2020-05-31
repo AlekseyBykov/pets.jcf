@@ -8,6 +8,10 @@ import java.util.TreeSet;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * @author Aleksey Bykov
+ * @since 10.10.2019
+ */
 @DisplayName("Tests for some concepts of NavigableSet and TreeSet")
 class NavigableAndTreeSetTest {
 

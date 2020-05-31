@@ -9,6 +9,10 @@ import java.util.Comparator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * @author Aleksey Bykov
+ * @since 09.10.2019
+ */
 @DisplayName("Tests for multiple independent sorts")
 class ComparatorTest {
 

@@ -4,6 +4,10 @@ import lombok.*;
 
 import java.util.Objects;
 
+/**
+ * @author Aleksey Bykov
+ * @since 09.10.2019
+ */
 @Builder
 @Getter
 @Setter

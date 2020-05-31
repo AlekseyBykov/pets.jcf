@@ -11,6 +11,10 @@ import java.util.ListIterator;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * @author Aleksey Bykov
+ * @since 09.10.2019
+ */
 @DisplayName("Tests for basic iterator methods")
 class IteratorTest {
 
